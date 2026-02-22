@@ -1,5 +1,7 @@
 # From Python to Machine Learning
-
+<p align="center">
+  <img src="assets/banner.png" alt="From Python to Machine Learning Banner">
+</p>
 A structured, notebook-first curriculum that takes you from Python fundamentals to statistical thinking — step by step, with zero random jumps.
 
 ---
@@ -17,7 +19,9 @@ Each module builds on the previous one.
 ---
 
 ## Curriculum Roadmap
-
+<p align="center">
+  <img src="assets/roadmap.png" width="600">
+</p>
 ---
 
 ## Modules
@@ -49,16 +53,21 @@ DataFrames, cleaning, transformation, groupby, merges/joins.
 ### 05 — Data Analysis
 EDA workflow, missing values, outliers, feature engineering, visualization.  
 → Open: `notebooks/05_data-analysis/`
+🚧 Visual demonstrations will be added as the module progresses.
 
 ---
 
 ### 06 — Statistics
 Descriptive statistics, probability basics, distributions, hypothesis testing.  
 → Open: `notebooks/06_statistics/`
+🚧 Statistical visualizations and applied examples coming soon.
 
 ---
 
 ## How to use this course
+<p align="center">
+  <img src="assets/repo-structure.png" width="700">
+</p>
 
 1. Start at **Module 01** and move in order.
 2. Inside each module, run notebooks sequentially.
