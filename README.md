@@ -1,69 +1,142 @@
 # From Python to Machine Learning
 
-A structured notebook-first journey from Python fundamentals to data analysis, statistics, and machine learning.
+A structured, notebook-first curriculum that takes you from Python fundamentals to statistical thinking — step by step, with zero random jumps.
 
 ---
 
-## Start Here
+## What this repository is
 
-### Run in Google Colab (no setup)
-Open notebooks directly from GitHub in Colab:
+This is not a dump of notebooks.
 
-`https://colab.research.google.com/github/shubhankarreddy/From-Python-to-ML/blob/main/<path-to-notebook>`
+It is a **designed learning path**:
 
-Example:
-`https://colab.research.google.com/github/shubhankarreddy/From-Python-to-ML/blob/main/notebooks/01.Core-Python-Foundations/01.Variables-and-Data-Types.ipynb`
+Python → File Handling → Numerical Computing → Data Wrangling → Data Analysis → Statistics
 
-### Run locally
-```bash
-git clone https://github.com/shubhankarreddy/From-Python-to-ML.git
-cd From-Python-to-ML
-```
+Each module builds on the previous one.
 
 ---
 
-## Learning Map
-
-```
-Python Basics → Data Structures → Functions → NumPy → Pandas → EDA → Statistics → Machine Learning
-```
-
-This repository is meant to be followed in order. Each notebook builds on the previous one.
+## Curriculum Roadmap
 
 ---
 
 ## Modules
 
-| Order | Module | Focus |
-|------:|--------|-------|
-| 01 | Core Python Foundations | syntax, data types, control flow, functions |
-| 02 | Working with Files | reading/writing files, CSV, modules, datetime |
-| 03 | NumPy | arrays, indexing, vector operations, statistics |
-| 04 | Pandas | DataFrames, cleaning, grouping, joining, dates |
-| 05 | EDA and Visualization | plots, distributions, correlation, insights |
-| 06 | Statistics | probability, sampling, hypothesis testing |
-| 07 | Machine Learning | planned |
+### 01 — Core Python
+Programming fundamentals: variables, control flow, data structures, functions.  
+→ Open: `notebooks/01_core-python/`
 
 ---
 
-## Open in Colab
-
-Core Python:
-- 01. Variables and Data Types: https://colab.research.google.com/github/shubhankarreddy/From-Python-to-ML/blob/main/notebooks/01.Core-Python-Foundations/01.Variables-and-Data-Types.ipynb
-- 02. Strings: https://colab.research.google.com/github/shubhankarreddy/From-Python-to-ML/blob/main/notebooks/01.Core-Python-Foundations/02.Strings.ipynb
-- 03. Lists: https://colab.research.google.com/github/shubhankarreddy/From-Python-to-ML/blob/main/notebooks/01.Core-Python-Foundations/03.Lists.ipynb
-- 04. Tuples and Sets: https://colab.research.google.com/github/shubhankarreddy/From-Python-to-ML/blob/main/notebooks/01.Core-Python-Foundations/04.Tuples-and-Sets.ipynb
-- 05. Dictionaries: https://colab.research.google.com/github/shubhankarreddy/From-Python-to-ML/blob/main/notebooks/01.Core-Python-Foundations/05.Dictionaries.ipynb
+### 02 — Working with Files
+File I/O, CSV handling, modules, datetime essentials.  
+→ Open: `notebooks/02_working-with-files/`
 
 ---
 
-## Notes
+### 03 — NumPy
+Arrays, indexing, vectorization, aggregations, randomness & reproducibility.  
+→ Open: `notebooks/03_numpy/`
 
-- Notebook and folder names are URL-friendly for direct Colab access.
-- Invalid notebook files are avoided by keeping notebooks as valid JSON.
+---
+
+### 04 — Pandas
+DataFrames, cleaning, transformation, groupby, merges/joins.  
+→ Open: `notebooks/04_pandas/`
+
+---
+
+### 05 — Data Analysis
+EDA workflow, missing values, outliers, feature engineering, visualization.  
+→ Open: `notebooks/05_data-analysis/`
+
+---
+
+### 06 — Statistics
+Descriptive statistics, probability basics, distributions, hypothesis testing.  
+→ Open: `notebooks/06_statistics/`
+
+---
+
+## How to use this course
+
+1. Start at **Module 01** and move in order.
+2. Inside each module, run notebooks sequentially.
+3. Avoid skipping modules — later topics assume earlier foundations.
+4. If a notebook breaks, restart the kernel and run from the top.
+
+---
+
+## Setup (Beginner-Friendly)
+
+Choose **one** of these options.
+
+### Option A — Anaconda + Jupyter Notebook (Recommended for Beginners)
+
+**Requirements**
+- Download Anaconda (Windows x64): **[Anaconda3-2025.12-1-Windows-x86_64.exe](https://repo.anaconda.com/archive/Anaconda3-2025.12-1-Windows-x86_64.exe)**
+
+**Steps**
+1. Install Anaconda.
+2. Open **Anaconda Navigator**.
+3. Launch **Jupyter Notebook** (or JupyterLab).
+4. Open this repository folder and start running notebooks.
+
+Best for: beginners, offline learning, smooth setup.
+
+---
+
+### Option B — VS Code + Jupyter (Recommended for a Modern Editor)
+
+**Requirements**
+- Download VS Code: **[VS Code Download](https://code.visualstudio.com/download)**
+- Install Jupyter extension: **[Jupyter Extension (VS Code)](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)**
+- Install Python extension: **[Python Extension (VS Code)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)**
+
+**Steps**
+1. Install VS Code.
+2. Install the **Python** extension.
+3. Install the **Jupyter** extension.
+4. Open this repository folder in VS Code.
+5. Open any `.ipynb` notebook and run cells.
+
+Best for: students who prefer VS Code + notebooks.
+
+---
+
+### Option C — Google Colab (No Installation)
+
+**Requirements**
+- A Google account + browser (Chrome recommended)
+
+**Steps**
+1. Open Google Colab in your browser.
+2. Upload a notebook (`.ipynb`) from this repo.
+3. Run it online.
+
+Best for: quick practice, low-end laptops, zero setup.
+
+---
+
+## Repository standards
+
+- Notebook naming format: `XX_YY_topic-name.ipynb`
+- Keep notebooks runnable top-to-bottom (no hidden state)
+- Store datasets under `data/` (`raw/` and `processed/` recommended)
+- Each notebook follows: **Concept → Examples → Practice**
+
+---
+
+## What’s next
+
+Planned extensions:
+
+- 07 Machine Learning
+- 08 Model Evaluation
+- 09 Projects & Case Studies
 
 ---
 
 ## License
 
-MIT
+MIT (or update `LICENSE` as needed)
